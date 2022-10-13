@@ -28,6 +28,7 @@ body{
     background-color: var(--lightGray-background-paragraph);
     display: flex;
     flex-direction: column;
+    padding: 3rem 0;
 }
 h2{
     font-family: var(--familyKarla);
@@ -54,12 +55,13 @@ ul{
 .card-container{
     width: 35rem;
     margin: auto;
-    padding: 3rem 0;
     display: grid;
     grid-template-areas: 
         "one"
         "two"
         "three";
+    box-shadow: 0 5px 10px rgba(48, 48, 48, 0.466);
+    border-radius: 1rem;
 }
 .section-one{
     grid-area: one;
@@ -139,7 +141,7 @@ ul{
 .attribution{
     font-size: 11px;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-top: 3rem;
 }
 .attribution a{
     color: hsl(228, 45%, 44%);
